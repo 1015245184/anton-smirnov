@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Смирнов Антон Павлович — юрист по недвижимости, гражданскому праву и девелопменту</title>
+  <meta name="description" content="Смирнов Антон Павлович — дипломированный юрист с 28-летним опытом в сфере недвижимости, гражданского права и девелопмента. Юридическое сопровождение сделок и правовая экспертиза.">
+  <meta name="theme-color" content="#0b1424">
+  <meta name="format-detection" content="telephone=yes">
+
+  <!-- ===== URL ВИЗИТКИ: заменить YOUR-DOMAIN.RU на фактический адрес (см. также SITE_URL в скрипте ниже) ===== -->
+  <link rel="canonical" href="https://anton-smirnov.arhned.ru">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Смирнов Антон Павлович — юрист по недвижимости, гражданскому праву и девелопменту">
+  <meta property="og:description" content="Дипломированный юрист с 28-летним опытом. Юридическое сопровождение сделок с недвижимостью, правовая экспертиза, защита интересов участников сделок.">
+  <meta property="og:url" content="https://anton-smirnov.arhned.ru">
+  <meta property="og:site_name" content="Смирнов Антон Павлович — электронная визитка">
+  <meta property="profile:first_name" content="Антон">
+  <meta property="profile:last_name" content="Смирнов">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1424'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='26' fill='%23c9a46a'%3EСАП%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Библиотека генерации QR-кода (лёгкая, без зависимостей) -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js" defer></script>
+
+  <!-- Структурированные данные для поисковых систем -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Смирнов Антон Павлович",
+    "jobTitle": "Дипломированный юрист по недвижимости, гражданскому праву и девелопменту",
+    "telephone": "+79115528888",
+    "email": ["sap448888@gmail.com", "sap448888@yandex.ru"],
+    "url": "https://anton-smirnov.arhned.ru",
+    "sameAs": ["https://t.me/sap448888"],
+    "knowsAbout": ["Недвижимость", "Гражданское право", "Девелопмент", "Сделки с недвижимостью", "Договорная работа"]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b1424;
+      --bg-2: #0f1b30;
+      --surface: #13223b;
+      --surface-2: #182a47;
+      --line: rgba(201, 164, 106, 0.22);
+      --line-soft: rgba(255, 255, 255, 0.08);
+      --text: #f4f1ea;
+      --muted: #b9c0cc;
+      --gold: #c9a46a;
+      --gold-2: #e2c48f;
+      --gold-ink: #1a1408;
+      --radius: 18px;
+      --radius-sm: 12px;
+      --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.6);
+      --serif: "Cormorant Garamond", "Times New Roman", Georgia, serif;
+      --sans: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      --wrap: 1120px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.6;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 600px at 85% -10%, rgba(201, 164, 106, 0.10), transparent 60%),
+        radial-gradient(900px 500px at -10% 30%, rgba(40, 80, 150, 0.18), transparent 60%),
+        var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+    img, svg { display: block; }
+
+    .wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 20px; }
+
+    .skip-link {
+      position: absolute; left: 12px; top: -60px; z-index: 100;
+      background: var(--gold); color: var(--gold-ink); padding: 10px 16px; border-radius: 10px;
+      font-weight: 700; text-decoration: none;
+    }
+    .skip-link:focus { top: 12px; }
+
+    :focus-visible {
+      outline: 3px solid var(--gold-2);
+      outline-offset: 3px;
+      border-radius: 10px;
+    }
+
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+    }
+
+    /* ===== Верхняя панель ===== */
+    .topbar {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(11, 20, 36, 0.82);
+      backdrop-filter: saturate(140%) blur(12px);
+      -webkit-backdrop-filter: saturate(140%) blur(12px);
+      border-bottom: 1px solid var(--line-soft);
+    }
+    .topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .brand-mark {
+      width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center;
+      border: 1px solid var(--line); color: var(--gold); font-family: var(--serif); font-weight: 700; font-size: 15px; letter-spacing: .04em;
+    }
+    .brand-name { font-weight: 600; font-size: 15px; letter-spacing: .01em; }
+    .nav { display: none; gap: 26px; }
+    .nav a { text-decoration: none; color: var(--muted); font-size: 14px; font-weight: 500; transition: color .2s; }
+    .nav a:hover { color: var(--gold-2); }
+    .topbar-call {
+      display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+      color: var(--gold-2); font-weight: 600; font-size: 14px; white-space: nowrap;
+      min-height: 44px; padding: 0 4px;
+    }
+    @media (min-width: 900px) { .nav { display: flex; } }
+
+    /* ===== Hero ===== */
+    .hero { padding: 34px 0 56px; }
+    .hero-grid { display: grid; gap: 30px; align-items: center; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      color: var(--gold); font-size: 12.5px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--gold); }
+    .hero h1 {
+      font-family: var(--serif); font-weight: 600;
+      font-size: clamp(40px, 9.5vw, 76px); line-height: 1.02; letter-spacing: -.005em;
+      margin: 14px 0 14px;
+    }
+    .hero h1 span { display: block; }
+    .hero h1 .accent { color: var(--gold-2); }
+    .hero .subtitle {
+      font-size: clamp(17px, 2.4vw, 21px); font-weight: 600; color: var(--text);
+      margin: 0 0 14px; max-width: 34ch; line-height: 1.4;
+    }
+    .hero .lead { color: var(--muted); margin: 0 0 26px; max-width: 58ch; }
+
+    .actions { display: grid; gap: 12px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+      min-height: 58px; padding: 0 24px; border-radius: 14px;
+      font-family: var(--sans); font-size: 17px; font-weight: 700; text-decoration: none;
+      border: 1px solid transparent; cursor: pointer; transition: transform .15s, background .2s, border-color .2s, color .2s;
+      -webkit-tap-highlight-color: transparent; width: 100%;
+    }
+    .btn svg { width: 22px; height: 22px; flex: none; }
+    .btn:active { transform: translateY(1px); }
+    .btn-gold { background: linear-gradient(180deg, var(--gold-2), var(--gold)); color: var(--gold-ink); box-shadow: 0 10px 30px -12px rgba(201,164,106,.6); }
+    .btn-gold:hover { background: linear-gradient(180deg, #ecd3a5, #d2ae74); }
+    .btn-blue { background: #1f4f8f; color: #fff; }
+    .btn-blue:hover { background: #255ca6; }
+    .btn-ghost { background: transparent; color: var(--text); border-color: rgba(255,255,255,.22); }
+    .btn-ghost:hover { border-color: var(--gold); color: var(--gold-2); }
+    .btn .chev { width: 18px; height: 18px; transition: transform .2s; margin-left: auto; }
+    .btn[aria-expanded="true"] .chev { transform: rotate(180deg); }
+
+    .email-panel {
+      display: grid; gap: 10px; padding: 12px; margin-top: 2px;
+      background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    }
+    .email-panel[hidden] { display: none; }
+    .email-option {
+      display: flex; align-items: center; gap: 12px; min-height: 54px; padding: 0 16px;
+      border-radius: 10px; text-decoration: none; background: var(--surface-2);
+      font-weight: 600; word-break: break-all; border: 1px solid transparent;
+    }
+    .email-option:hover { border-color: var(--gold); }
+    .email-option svg { width: 20px; height: 20px; color: var(--gold); flex: none; }
+
+    @media (min-width: 560px) {
+      .actions { grid-template-columns: 1fr 1fr; }
+      .actions .btn-email-wrap { grid-column: 1 / -1; }
+    }
+
+    /* Монограмма */
+    .monogram {
+      position: relative; aspect-ratio: 4 / 5; width: 100%; max-width: 420px; margin: 0 auto;
+      border-radius: 26px; overflow: hidden;
+      background:
+        linear-gradient(160deg, #172a49 0%, #0d1830 60%, #0a1222 100%);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      display: none;
+    }
+    .monogram svg.arch { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .monogram .initials {
+      position: absolute; left: 0; right: 0; bottom: 15%;
+      text-align: center; font-family: var(--serif); font-weight: 600;
+      font-size: clamp(64px, 8vw, 104px); letter-spacing: .08em; color: var(--gold-2);
+      line-height: 1;
+    }
+    .monogram .caption {
+      position: absolute; left: 0; right: 0; bottom: 9%;
+      text-align: center; font-size: 11.5px; letter-spacing: .28em; text-transform: uppercase; color: var(--muted);
+    }
+
+    .stats {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 34px; padding: 0; list-style: none;
+    }
+    .stat {
+      background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.01));
+      border: 1px solid var(--line-soft); border-radius: var(--radius-sm); padding: 18px 16px;
+    }
+    .stat-num {
+      font-family: var(--serif); font-weight: 700; color: var(--gold-2);
+      font-size: clamp(32px, 6vw, 44px); line-height: 1; display: block;
+    }
+    .stat-label { display: block; margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.4; }
+
+    @media (min-width: 960px) {
+      .hero { padding: 64px 0 80px; }
+      .hero-grid { grid-template-columns: 1.35fr 1fr; gap: 56px; }
+      .monogram { display: block; }
+      .stats { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (max-width: 959px) {
+      .hero-mono-mobile {
+        display: flex; align-items: center; gap: 14px; margin-bottom: 4px;
+      }
+    }
+    .hero-mono-mobile { display: none; }
+    .hero-mono-mobile .badge {
+      width: 58px; height: 58px; border-radius: 16px; display: grid; place-items: center;
+      background: linear-gradient(160deg, #1a2f52, #0d1830); border: 1px solid var(--line);
+      font-family: var(--serif); font-weight: 700; color: var(--gold-2); font-size: 20px; letter-spacing: .06em;
+    }
+    @media (max-width: 959px) { .hero-mono-mobile { display: flex; } #hero-eyebrow { display: none; } }
+
+    /* ===== Секции ===== */
+    section { scroll-margin-top: 70px; }
+    .section { padding: 64px 0; border-top: 1px solid var(--line-soft); }
+    .section-head { margin-bottom: 30px; max-width: 720px; }
+    .section-head h2 {
+      font-family: var(--serif); font-weight: 600; font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.1; margin: 10px 0 0;
+    }
+
+    /* О специалисте */
+    .about-grid { display: grid; gap: 28px; }
+    .about-text p { margin: 0 0 16px; color: #dfe3ea; font-size: 18px; }
+    .about-text p:first-child::first-letter {
+      font-family: var(--serif); float: left; font-size: 64px; line-height: .9; padding: 6px 10px 0 0; color: var(--gold-2);
+    }
+    .about-facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line-soft); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line-soft); }
+    .about-facts li { background: var(--bg-2); padding: 18px 20px; display: grid; gap: 2px; }
+    .about-facts .k { font-size: 12.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+    .about-facts .v { font-weight: 600; }
+    @media (min-width: 900px) { .about-grid { grid-template-columns: 1.5fr 1fr; gap: 48px; } }
+
+    /* Компетенции */
+    .cards { display: grid; gap: 14px; list-style: none; margin: 0; padding: 0; }
+    .card {
+      background: linear-gradient(180deg, var(--surface), var(--bg-2));
+      border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 22px 20px;
+      display: flex; gap: 16px; align-items: flex-start; transition: border-color .2s, transform .2s;
+    }
+    .card:hover { border-color: var(--line); transform: translateY(-2px); }
+    .card .ico {
+      width: 46px; height: 46px; border-radius: 12px; flex: none; display: grid; place-items: center;
+      background: rgba(201,164,106,.10); border: 1px solid var(--line); color: var(--gold-2);
+    }
+    .card .ico svg { width: 22px; height: 22px; }
+    .card h3 { margin: 2px 0 0; font-size: 16.5px; font-weight: 600; line-height: 1.45; }
+    @media (min-width: 640px) { .cards { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1000px) {
+      .cards { grid-template-columns: repeat(4, 1fr); }
+      .card { flex-direction: column; min-height: 190px; }
+    }
+
+    .directions { margin-top: 34px; padding: 24px 22px; border-radius: var(--radius); border: 1px solid var(--line-soft); background: rgba(255,255,255,.02); }
+    .directions h3 { margin: 0 0 14px; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+    .directions ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+    .directions li { position: relative; padding-left: 22px; color: #dfe3ea; }
+    .directions li::before { content: ""; position: absolute; left: 0; top: .72em; width: 10px; height: 1px; background: var(--gold); }
+    @media (min-width: 800px) { .directions ul { grid-template-columns: 1fr 1fr; column-gap: 36px; } }
+
+    /* Таймлайн */
+    .timeline { list-style: none; margin: 0; padding: 0; position: relative; max-width: 820px; }
+    .timeline::before { content: ""; position: absolute; left: 11px; top: 8px; bottom: 8px; width: 1px; background: linear-gradient(var(--gold), rgba(201,164,106,.1)); }
+    .tl-item { position: relative; padding: 0 0 34px 48px; }
+    .tl-item:last-child { padding-bottom: 0; }
+    .tl-dot { position: absolute; left: 4px; top: 6px; width: 15px; height: 15px; border-radius: 50%; background: var(--bg); border: 2px solid var(--gold); }
+    .tl-item:first-child .tl-dot { background: var(--gold); }
+    .tl-date { font-family: var(--serif); font-size: 28px; font-weight: 700; color: var(--gold-2); line-height: 1.1; }
+    .tl-title { margin: 6px 0 4px; font-size: 18px; font-weight: 600; }
+    .tl-desc { margin: 0; color: var(--muted); }
+
+    /* Образование */
+    .edu { display: grid; gap: 14px; }
+    .edu-card {
+      position: relative; padding: 28px 24px; border-radius: var(--radius);
+      background: linear-gradient(160deg, #142640, #0e1a2e); border: 1px solid var(--line);
+      overflow: hidden;
+    }
+    .edu-card .ico { width: 44px; height: 44px; color: var(--gold-2); margin-bottom: 18px; }
+    .edu-card .lvl { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+    .edu-card .spec { font-family: var(--serif); font-size: 34px; font-weight: 600; margin-top: 6px; line-height: 1.1; }
+    .edu-card::after {
+      content: ""; position: absolute; right: -40px; top: -40px; width: 160px; height: 160px; border-radius: 50%;
+      border: 1px solid rgba(201,164,106,.18);
+    }
+    @media (min-width: 720px) { .edu { grid-template-columns: 1fr 1fr; } }
+
+    /* Контакты */
+    .contacts-grid { display: grid; gap: 20px; }
+    .contact-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+    .contact {
+      display: flex; align-items: center; gap: 16px; min-height: 76px; padding: 14px 18px;
+      border-radius: var(--radius-sm); text-decoration: none;
+      background: var(--surface); border: 1px solid var(--line-soft); transition: border-color .2s, background .2s;
+    }
+    .contact:hover { border-color: var(--gold); background: var(--surface-2); }
+    .contact .ico { width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center; flex: none; background: rgba(201,164,106,.10); color: var(--gold-2); border: 1px solid var(--line); }
+    .contact .ico svg { width: 22px; height: 22px; }
+    .contact .lbl { display: block; font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+    .contact .val { display: block; font-size: clamp(17px, 4.6vw, 21px); font-weight: 600; word-break: break-all; line-height: 1.3; }
+    .contact .arrow { margin-left: auto; width: 20px; height: 20px; color: var(--muted); flex: none; }
+
+    .contact-tools { display: grid; gap: 12px; margin-top: 16px; }
+    @media (min-width: 560px) { .contact-tools { grid-template-columns: 1fr 1fr; } }
+
+    .qr-card {
+      background: linear-gradient(180deg, var(--surface), var(--bg-2));
+      border: 1px solid var(--line); border-radius: var(--radius); padding: 24px;
+      display: grid; gap: 18px; justify-items: center; text-align: center; align-content: start;
+    }
+    .qr-box {
+      background: #ffffff; padding: 18px; border-radius: 14px; width: 100%; max-width: 260px;
+      box-shadow: 0 10px 30px -10px rgba(0,0,0,.5);
+    }
+    .qr-box svg, .qr-box img { width: 100%; height: auto; }
+    .qr-caption { margin: 0; color: #dfe3ea; font-weight: 500; max-width: 30ch; }
+    .qr-url { margin: 0; font-size: 13px; color: var(--muted); word-break: break-all; }
+    .qr-card .btn { max-width: 320px; }
+    @media (min-width: 900px) { .contacts-grid { grid-template-columns: 1.4fr 1fr; gap: 32px; } }
+
+    .toast {
+      position: fixed; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom)); transform: translateX(-50%) translateY(20px);
+      background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 12px; font-weight: 600; font-size: 15px;
+      opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s; z-index: 200; max-width: calc(100% - 40px); text-align: center;
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* Футер */
+    footer { border-top: 1px solid var(--line-soft); padding: 34px 0 calc(34px + env(safe-area-inset-bottom)); background: #08101d; }
+    footer p { margin: 0 0 8px; color: var(--muted); font-size: 14.5px; }
+    footer .f-name { color: var(--text); font-weight: 600; }
+    footer .disclaimer { font-size: 13px; color: #9aa3b2; margin-top: 12px; }
+
+    /* Появление */
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    .no-js .reveal { opacity: 1; transform: none; }
+
+    @media print {
+      .topbar, .actions, .contact-tools, .qr-card .btn { display: none !important; }
+      body { background: #fff; color: #000; }
+    }
+  </style>
+</head>
+<body class="no-js">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- Набор иконок -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+      <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.2 1.8 11.7c-1-.3-1-1 .2-1.5L20.5 3.1c.9-.3 1.6.2 1.4 1.2z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6.5 9 6.5 9-6.5"/></g></symbol>
+      <symbol id="i-chev" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-user-plus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M19 8v6M16 11h6"/></g></symbol>
+      <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></g></symbol>
+      <symbol id="i-building" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V5l7-3v19M12 21V8l7 3v10"/><path d="M8 8h1M8 12h1M8 16h1M15 13h1M15 17h1"/></g></symbol>
+      <symbol id="i-search-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h5"/><path d="M14 2v6h6M20 8v3"/><circle cx="17" cy="17" r="3"/><path d="m21 21-1.8-1.8"/></g></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 9.8-9.8M17 6l3 3M14.5 8.5l2 2"/></g></symbol>
+      <symbol id="i-contract" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></g></symbol>
+      <symbol id="i-crane" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4M3 21h7M6 4h15M6 4l4 4M18 4v5M16 9h4v3h-4zM6 9l4-5M6 14l4-4"/></g></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+      <symbol id="i-handshake" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1.4 1.4 0 0 0 2-2"/><path d="m14 14 2.5 2.5a1.4 1.4 0 0 0 2-2L15 11l-1.8 1.8a2 2 0 0 1-2.8-2.8L13 7.5l-1-1a3 3 0 0 0-4 0L3 11"/><path d="m21 11-3-3-3.5-1.5M3 11l6 6 1 1a1.4 1.4 0 0 0 2-2"/></g></symbol>
+      <symbol id="i-scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 21h10M5 7h14M12 3 9 5M12 3l3 2"/><path d="m5 7-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></g></symbol>
+      <symbol id="i-grad" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9 12 4 2 9l10 5 10-5z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5M22 9v6"/></g></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/><path d="M16 8h4v4"/></g></symbol>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Смирнов Антон Павлович — в начало страницы">
+        <span class="brand-mark" aria-hidden="true">САП</span>
+        <span class="brand-name">А. П. Смирнов</span>
+      </a>
+      <nav class="nav" aria-label="Разделы визитки">
+        <a href="#about">О специалисте</a>
+        <a href="#competencies">Компетенции</a>
+        <a href="#path">Профессиональный путь</a>
+        <a href="#education">Образование</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="topbar-call" href="tel:+79115528888" aria-label="Позвонить по номеру +7 911 552-88-88">
+        <svg width="18" height="18" aria-hidden="true"><use href="#i-phone"/></svg>
+        <span>+7 911 552-88-88</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== 1. HERO ===== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="hero-mono-mobile" aria-hidden="true">
+            <span class="badge">САП</span>
+            <span class="eyebrow" style="margin:0">Юрист · Недвижимость</span>
+          </div>
+          <span class="eyebrow" id="hero-eyebrow">Электронная визитка</span>
+          <h1 id="hero-title">
+            <span>Смирнов</span>
+            <span class="accent">Антон Павлович</span>
+          </h1>
+          <p class="subtitle">Дипломированный юрист по недвижимости, гражданскому праву и девелопменту</p>
+          <p class="lead">28 лет практического опыта. Юридическое сопровождение сделок, защита интересов собственников, покупателей, инвесторов и участников проектов в сфере недвижимости.</p>
+
+          <div class="actions">
+            <a class="btn btn-gold" href="tel:+79115528888" aria-label="Позвонить: +7 911 552-88-88">
+              <svg aria-hidden="true"><use href="#i-phone"/></svg>
+              <span>Позвонить</span>
+            </a>
+            <a class="btn btn-blue" href="https://t.me/sap448888" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram @sap448888 (откроется в новом окне)">
+              <svg aria-hidden="true"><use href="#i-tg"/></svg>
+              <span>Написать в Telegram</span>
+            </a>
+            <div class="btn-email-wrap">
+              <button class="btn btn-ghost" type="button" id="emailToggle" aria-expanded="false" aria-controls="emailPanel">
+                <svg aria-hidden="true"><use href="#i-mail"/></svg>
+                <span>Написать на e-mail</span>
+                <svg class="chev" aria-hidden="true"><use href="#i-chev"/></svg>
+              </button>
+              <div class="email-panel" id="emailPanel" role="group" aria-label="Выберите адрес электронной почты">
+                <a class="email-option" href="mailto:sap448888@gmail.com">
+                  <svg aria-hidden="true"><use href="#i-mail"/></svg>
+                  <span>sap448888@gmail.com</span>
+                </a>
+                <a class="email-option" href="mailto:sap448888@yandex.ru">
+                  <svg aria-hidden="true"><use href="#i-mail"/></svg>
+                  <span>sap448888@yandex.ru</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Абстракция вместо фотографии: архитектурная монограмма -->
+        <div class="monogram" role="img" aria-label="Монограмма САП на фоне архитектурной абстракции">
+          <svg class="arch" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#c9a46a" stop-opacity=".55"/>
+                <stop offset="1" stop-color="#c9a46a" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g fill="none" stroke="url(#g1)" stroke-width="1">
+              <path d="M70 330 V150 L200 70 L330 150 V330"/>
+              <path d="M95 330 V165 L200 100 L305 165 V330"/>
+              <path d="M70 150 H330"/>
+              <path d="M110 330 V185 M150 330 V185 M200 330 V185 M250 330 V185 M290 330 V185"/>
+              <path d="M90 185 H310"/>
+              <path d="M50 340 H350 M40 352 H360"/>
+            </g>
+            <g stroke="#c9a46a" stroke-opacity=".08">
+              <path d="M0 60 H400 M0 120 H400 M0 180 H400 M0 240 H400 M0 300 H400 M0 360 H400 M0 420 H400 M0 480 H400"/>
+              <path d="M50 0 V500 M100 0 V500 M150 0 V500 M200 0 V500 M250 0 V500 M300 0 V500 M350 0 V500"/>
+            </g>
+          </svg>
+          <div class="initials" aria-hidden="true">САП</div>
+          <div class="caption" aria-hidden="true">Право · Недвижимость · Девелопмент</div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <ul class="stats" aria-label="Ключевые факты">
+          <li class="stat"><span class="stat-num">28</span><span class="stat-label">лет практики</span></li>
+          <li class="stat"><span class="stat-num">2</span><span class="stat-label">высших образования</span></li>
+          <li class="stat"><span class="stat-num">2000</span><span class="stat-label">ИП в сфере права с 2000 года</span></li>
+          <li class="stat"><span class="stat-num">2004</span><span class="stat-label">Учредитель и директор агентства недвижимости с 2004 года</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 2. О СПЕЦИАЛИСТЕ ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">О специалисте</span>
+          <h2 id="about-title">Юридическая экспертиза и понимание рынка недвижимости</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>Антон Павлович Смирнов — профессиональный дипломированный юрист с 28-летним практическим опытом в сфере недвижимости, гражданского права и девелопмента. Осуществляет деятельность в области права в статусе индивидуального предпринимателя с 20 апреля 2000 года. С 2004 года является учредителем и директором агентства недвижимости.</p>
+            <p>Практика объединяет юридическую экспертизу и глубокое понимание рынка недвижимости: от анализа правовых рисков и подготовки документов до сопровождения переговоров и комплексных сделок.</p>
+          </div>
+          <ul class="about-facts reveal" aria-label="Кратко о специалисте">
+            <li><span class="k">Статус</span><span class="v">Индивидуальный предприниматель, деятельность в области права</span></li>
+            <li><span class="k">С 20.04.2000</span><span class="v">Практика в области права</span></li>
+            <li><span class="k">С 2004 года</span><span class="v">Учредитель и директор агентства недвижимости</span></li>
+            <li><span class="k">Образование</span><span class="v">Юриспруденция · Менеджмент</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. КОМПЕТЕНЦИИ ===== -->
+    <section class="section" id="competencies" aria-labelledby="comp-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Компетенции</span>
+          <h2 id="comp-title">Направления практики</h2>
+        </div>
+        <ul class="cards">
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-building"/></svg></span><h3>Сделки с жилой и коммерческой недвижимостью</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-search-doc"/></svg></span><h3>Правовая проверка недвижимости и документов</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-key"/></svg></span><h3>Купля-продажа, аренда, дарение, наследственные и иные гражданско-правовые вопросы</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-contract"/></svg></span><h3>Договорная работа и юридическая экспертиза</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-crane"/></svg></span><h3>Девелопмент и сопровождение проектов</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-shield"/></svg></span><h3>Защита интересов сторон сделки</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-handshake"/></svg></span><h3>Переговоры и урегулирование правовых вопросов</h3></li>
+          <li class="card reveal"><span class="ico" aria-hidden="true"><svg><use href="#i-scale"/></svg></span><h3>Анализ рисков до заключения сделки</h3></li>
+        </ul>
+
+        <div class="directions reveal">
+          <h3>Профессиональные направления</h3>
+          <ul>
+            <li>Юридическое сопровождение сделок с недвижимостью</li>
+            <li>Проверка объектов недвижимости и правоустанавливающих документов</li>
+            <li>Сопровождение купли-продажи квартир, домов, земельных участков и коммерческой недвижимости</li>
+            <li>Гражданско-правовые сделки и договорная работа</li>
+            <li>Сопровождение вопросов девелопмента и проектов, связанных с недвижимостью</li>
+            <li>Консультации по правовым рискам при сделках с недвижимостью</li>
+            <li>Защита интересов собственников, покупателей, инвесторов и участников сделок</li>
+            <li>Анализ рисков, подготовка и правовая экспертиза договоров</li>
+            <li>Сопровождение переговоров и структурирование сделок</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. ПРОФЕССИОНАЛЬНЫЙ ПУТЬ ===== -->
+    <section class="section" id="path" aria-labelledby="path-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Профессиональный путь</span>
+          <h2 id="path-title">Опыт, подтверждённый временем</h2>
+        </div>
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <span class="tl-dot" aria-hidden="true"></span>
+            <div class="tl-date"><time datetime="2000-04-20">С 20.04.2000</time></div>
+            <p class="tl-title">Индивидуальный предприниматель</p>
+            <p class="tl-desc">Основной вид деятельности — деятельность в области права.</p>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-dot" aria-hidden="true"></span>
+            <div class="tl-date"><time datetime="2004">С 2004 года</time></div>
+            <p class="tl-title">Учредитель и директор агентства недвижимости</p>
+            <p class="tl-desc">Практическая работа на рынке недвижимости и руководство агентством.</p>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-dot" aria-hidden="true"></span>
+            <div class="tl-date">28 лет</div>
+            <p class="tl-title">Юридическая практика</p>
+            <p class="tl-desc">В сфере недвижимости, гражданского права и девелопмента.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 5. ОБРАЗОВАНИЕ ===== -->
+    <section class="section" id="education" aria-labelledby="edu-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Образование</span>
+          <h2 id="edu-title">Два высших образования</h2>
+        </div>
+        <div class="edu">
+          <article class="edu-card reveal">
+            <svg class="ico" aria-hidden="true"><use href="#i-grad"/></svg>
+            <div class="lvl">Высшее юридическое образование</div>
+            <div class="spec">Юриспруденция</div>
+          </article>
+          <article class="edu-card reveal">
+            <svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg>
+            <div class="lvl">Высшее образование</div>
+            <div class="spec">Менеджмент</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6–7. КОНТАКТЫ + QR ===== -->
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Контакты</span>
+          <h2 id="contacts-title">Связаться со специалистом</h2>
+        </div>
+        <div class="contacts-grid">
+          <div>
+            <ul class="contact-list">
+              <li>
+                <a class="contact" href="tel:+79115528888">
+                  <span class="ico" aria-hidden="true"><svg><use href="#i-phone"/></svg></span>
+                  <span><span class="lbl">Телефон</span><span class="val">+7 911 552-88-88</span></span>
+                  <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+              </li>
+              <li>
+                <a class="contact" href="https://t.me/sap448888" target="_blank" rel="noopener noreferrer" aria-label="Telegram: @sap448888 (откроется в новом окне)">
+                  <span class="ico" aria-hidden="true"><svg><use href="#i-tg"/></svg></span>
+                  <span><span class="lbl">Telegram</span><span class="val">@sap448888</span></span>
+                  <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+              </li>
+              <li>
+                <a class="contact" href="mailto:sap448888@gmail.com">
+                  <span class="ico" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>
+                  <span><span class="lbl">E-mail</span><span class="val">sap448888@gmail.com</span></span>
+                  <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+              </li>
+              <li>
+                <a class="contact" href="mailto:sap448888@yandex.ru">
+                  <span class="ico" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>
+                  <span><span class="lbl">E-mail</span><span class="val">sap448888@yandex.ru</span></span>
+                  <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+              </li>
+            </ul>
+            <div class="contact-tools">
+              <button class="btn btn-gold" type="button" id="saveContact">
+                <svg aria-hidden="true"><use href="#i-user-plus"/></svg>
+                <span>Сохранить контакт</span>
+              </button>
+              <button class="btn btn-ghost" type="button" id="shareCard">
+                <svg aria-hidden="true"><use href="#i-share"/></svg>
+                <span>Поделиться визиткой</span>
+              </button>
+            </div>
+          </div>
+
+          <aside class="qr-card" aria-labelledby="qr-title">
+            <h3 id="qr-title" class="sr-only">QR-код электронной визитки</h3>
+            <div class="qr-box" id="qrcode" role="img" aria-label="QR-код со ссылкой на электронную визитку"></div>
+            <p class="qr-caption">Наведите камеру телефона, чтобы открыть электронную визитку</p>
+            <p class="qr-url" id="qrUrl"></p>
+            <button class="btn btn-ghost" type="button" id="shareCard2">
+              <svg aria-hidden="true"><use href="#i-share"/></svg>
+              <span>Поделиться визиткой</span>
+            </button>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 8. ФУТЕР ===== -->
+  <footer>
+    <div class="wrap">
+      <p class="f-name">Смирнов Антон Павлович · Юридическое сопровождение в сфере недвижимости, гражданского права и девелопмента</p>
+      <p class="disclaimer">Информация на сайте носит ознакомительный характер и не является публичной офертой.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    /* =====================================================================
+       НАСТРОЙКА URL ВИЗИТКИ ДЛЯ QR-КОДА И КНОПКИ «ПОДЕЛИТЬСЯ»
+       Замените адрес ниже на фактический постоянный HTTPS-адрес визитки.
+       Пример: 'https://smirnov-law.ru/anton-smirnov'
+       Пока здесь стоит YOUR-DOMAIN.RU, скрипт подставляет текущий адрес
+       открытой страницы, чтобы QR-код всё равно работал.
+       ===================================================================== */
+    const SITE_URL = 'https://anton-smirnov.arhned.ru';
+
+    document.body.classList.remove('no-js');
+
+    function getCardUrl() {
+      const isPlaceholder = SITE_URL.includes('YOUR-DOMAIN');
+      if (isPlaceholder && /^https?:$/.test(location.protocol)) {
+        return location.origin + location.pathname;
+      }
+      return SITE_URL;
+    }
+
+    const toastEl = document.getElementById('toast');
+    let toastTimer;
+    function toast(msg) {
+      toastEl.textContent = msg;
+      toastEl.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toastEl.classList.remove('show'), 2600);
+    }
+
+    /* ---------- Выбор e-mail ---------- */
+    const emailToggle = document.getElementById('emailToggle');
+    const emailPanel = document.getElementById('emailPanel');
+    emailPanel.hidden = true;
+    emailToggle.addEventListener('click', () => {
+      const open = emailToggle.getAttribute('aria-expanded') === 'true';
+      emailToggle.setAttribute('aria-expanded', String(!open));
+      emailPanel.hidden = open;
+      if (!open) emailPanel.querySelector('a').focus();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !emailPanel.hidden) {
+        emailPanel.hidden = true;
+        emailToggle.setAttribute('aria-expanded', 'false');
+        emailToggle.focus();
+      }
+    });
+
+    /* ---------- vCard ---------- */
+    function buildVCard() {
+      const lines = [
+        'BEGIN:VCARD',
+        'VERSION:3.0',
+        'FN:Смирнов Антон Павлович',
+        'N:Смирнов;Антон Павлович;;;',
+        'TITLE:Дипломированный юрист по недвижимости\\, гражданскому праву и девелопменту',
+        'TEL;TYPE=CELL:+79115528888',
+        'EMAIL;TYPE=INTERNET:sap448888@gmail.com',
+        'EMAIL;TYPE=INTERNET:sap448888@yandex.ru',
+        'URL:https://t.me/sap448888',
+        'NOTE:ИП в области права с 20.04.2000. Учредитель и директор агентства недвижимости с 2004 года. Практический опыт — 28 лет.',
+        'END:VCARD'
+      ];
+      return lines.join('\r\n') + '\r\n';
+    }
+
+    document.getElementById('saveContact').addEventListener('click', () => {
+      const vcf = buildVCard();
+      const fileName = 'Smirnov_Anton_Pavlovich.vcf';
+      const blob = new Blob([vcf], { type: 'text/vcard;charset=utf-8' });
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+                    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+      if (isIOS) {
+        // iOS Safari открывает .vcf и предлагает «Создать новый контакт»
+        const reader = new FileReader();
+        reader.onload = () => { window.location.href = reader.result; };
+        reader.readAsDataURL(blob);
+        return;
+      }
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = fileName;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1500);
+      toast('Файл контакта загружен — откройте его, чтобы добавить в телефонную книгу');
+    });
+
+    /* ---------- Поделиться ---------- */
+    async function shareCard() {
+      const url = getCardUrl();
+      const data = {
+        title: 'Смирнов Антон Павлович — юрист по недвижимости',
+        text: 'Смирнов Антон Павлович — дипломированный юрист по недвижимости, гражданскому праву и девелопменту. Тел.: +7 911 552-88-88',
+        url
+      };
+      if (navigator.share) {
+        try { await navigator.share(data); } catch (e) { /* пользователь отменил */ }
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        toast('Ссылка на визитку скопирована');
+      } catch (e) {
+        window.prompt('Скопируйте ссылку на визитку:', url);
+      }
+    }
+    document.getElementById('shareCard').addEventListener('click', shareCard);
+    document.getElementById('shareCard2').addEventListener('click', shareCard);
+
+    /* ---------- QR-код ---------- */
+    function renderQR() {
+      const url = getCardUrl();
+      document.getElementById('qrUrl').textContent = url;
+      const box = document.getElementById('qrcode');
+      if (typeof qrcode !== 'function') {
+        // Резерв: если CDN недоступен, используем внешний генератор изображения
+        box.innerHTML = '<img alt="QR-код со ссылкой на электронную визитку" width="240" height="240" src="https://api.qrserver.com/v1/create-qr-code/?size=480x480&margin=0&ecc=M&data=' + encodeURIComponent(url) + '">';
+        return;
+      }
+      const qr = qrcode(0, 'M');      // автоматический размер, уровень коррекции M
+      qr.addData(url);
+      qr.make();
+      // Белое поле вокруг модулей обеспечивается отступом .qr-box и margin внутри SVG
+      box.innerHTML = qr.createSvgTag({ cellSize: 8, margin: 2, scalable: true });
+      const svg = box.querySelector('svg');
+      if (svg) {
+        svg.setAttribute('aria-hidden', 'true');
+        svg.querySelectorAll('path, rect').forEach(el => {
+          if (el.getAttribute('fill') === 'black' || el.getAttribute('fill') === '#000000') el.setAttribute('fill', '#0b1424');
+        });
+      }
+    }
+    window.addEventListener('load', renderQR);
+
+    /* ---------- Плавное появление ---------- */
+    const items = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      items.forEach(el => io.observe(el));
+    } else {
+      items.forEach(el => el.classList.add('in'));
+    }
+  </script>
+</body>
+</html>
